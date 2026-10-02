@@ -1,0 +1,12 @@
+{
+  "project": "HepatoPattern",
+  "models_compared": [
+    "Logistic Regression",
+    "Decision Tree",
+    "Random Forest"
+  ],
+  "best_model": "Random Forest",
+  "test_accuracy": 0.975609756097561,
+  "test_roc_auc": 0.9969135802469136,
+  "n_patients": 615
+}
