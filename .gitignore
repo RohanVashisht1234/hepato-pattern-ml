@@ -1,0 +1,58 @@
+# ==============================================================================
+# Git Ignore - HepatoPattern Liver Disease Classification Project
+# ==============================================================================
+
+# Data files (Datasets auto-downloaded from UCI ML Repository)
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.parquet
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints and cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python packaging and distribution
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Testing and linting caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit local credentials and secrets
+.streamlit/secrets.toml
